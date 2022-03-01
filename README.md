@@ -32,7 +32,7 @@ We design a ```Scanpy_Obj_IO``` module for users to preprocess the input data to
 
 ```Python
 import scBalance.scbalance_IO as ss
-ss.Scanpy_Obj_IO
+ss.Scanpy_Obj_IO(test_obj=adata, ref_obj=train_adata, label_obj=train_label, scale = False)
 ```
 
 For users who want to process by yourselve, please follow the Tutorial [Intra-dataset and Inter-dataset annotation](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/Intradataset%26Interdataset_annotation_tutorial.ipynb).
