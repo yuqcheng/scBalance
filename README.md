@@ -25,6 +25,10 @@ pip install scBalance
 
 ## Usage
 
+0. Data preprocessing
+
+We design a ```Scanpy_Obj_IO```
+
 1. The inputs of scBalance are two expression matrices and one label vector. 
 
 ```Python
@@ -43,6 +47,8 @@ The label vector should be a n rows \* 1 column vector. For example,
 <img src="https://github.com/yuqcheng/scBalance/blob/main/Tutorial/usage1.png" width=140/>
 
 Column name can be anything.
+
+
 
 2. Waiting for the progress bar to finish.
 
