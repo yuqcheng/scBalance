@@ -19,6 +19,20 @@ Notably, scBalance is the only tool that is highly compatible with Scanpy. Users
 pip install scBalance
 ```
 
+## Usage
+
+The inputs of scBalance are two expression matrices and one label vector. 
+
+```Python
+import scBalance as sb
+sb.scBalance(test, reference, ref_label, 'gpu')
+```
+
+in which **test=The expression matrix of the sample to be annotated, reference=The expression matrix of the labeled dataset (reference set), label = label vector (in pandas structure)**.
+
+
+
+
 ## Tutorial
 
 [Annotation of 3k PBMCs](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/scBalance%20Tuotrial_Annotation%20of%203k%20PBMCs.ipynb)
