@@ -8,10 +8,10 @@ Notably, scBalance is the only tool that is highly compatible with Scanpy. Users
 
 ## Requirement
 
-- Scanpy
-- Pytorch
-- Numpy
-- Pandas
+- Scanpy (Compatible with all versions)
+- Pytorch (With Cudatoolkit is recommanded)
+- Numpy > 1.20
+- Pandas > 1.2
 
 ## Tutorial
 
