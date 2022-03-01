@@ -59,5 +59,12 @@ Column name can be anything.
 
 ### 2. Waiting for the progress bar to finish.
 
+```
+--------Start annotating----------
+Computational unit be used is: cuda
+100%[====================->]28.94s
+--------Annotation Finished----------
+```
+
 ## Citation
 
