@@ -41,14 +41,15 @@ For users who want to process by yourselve, please follow the Tutorial [Intra-da
 
 ```Python
 import scBalance as sb
-pred_result = sb.scBalance(test, reference, label, 'gpu')
+pred_result = sb.scBalance(test, reference, label, processing_unit)
 ```
 
 in which 
 
 - **test=The expression matrix of the sample to be annotated**,
 - **reference=The expression matrix of the labeled dataset (reference set),** 
-- **label = label vector (in pandas structure)**.
+- **label = label vector (in pandas structure)**,
+- **processing_unit = 'cpu'(Default)/'gpu'**. If no changes, the default processor will be CPU. We highly recommend setting as 'gpu' if your server supports.
 
 The label vector should be a n rows \* 1 column vector. For example,
 
