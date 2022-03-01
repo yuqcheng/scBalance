@@ -26,13 +26,13 @@ pip install scBalance
 
 ## Usage
 
-0. Data preprocessing
+### 0. Data preprocessing
 
 We design a ```Scanpy_Obj_IO``` module for users to preprocess the input data to the input format of the scBalance. The use of this module can be seen in the Tutorial [Annotation of 3k PBMCs](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/scBalance%20Tuotrial_Annotation%20of%203k%20PBMCs.ipynb).
 
 For users who want to process by yourselve, please follow the Tutorial [Intra-dataset and Inter-dataset annotation](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/Intradataset%26Interdataset_annotation_tutorial.ipynb).
 
-1. The inputs of scBalance are two expression matrices and one label vector. 
+### 1. The inputs of scBalance are two expression matrices and one label vector. 
 
 ```Python
 import scBalance as sb
@@ -51,9 +51,7 @@ The label vector should be a n rows \* 1 column vector. For example,
 
 Column name can be anything.
 
-
-
-2. Waiting for the progress bar to finish.
+### 2. Waiting for the progress bar to finish.
 
 ## Citation
 
