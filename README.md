@@ -2,10 +2,18 @@
 
 ## Introduction
 
-scBalance, a neural network-based classifier, provides a fast and accurate cell type identification for a new single-cell RNA-seq profile. Outperforming on the imbalanced scRNA-seq dataset and cross-platform makes scBalance a brilliant auto-annotation tool to help bioinformatics researchers conduct great downstream research. 
+scBalance, a dropout neural network-based classifier, provides a fast and accurate cell type identification for a new single-cell RNA-seq profile. By leveraging the newly designed neural network structure, scBalance especially obtains an outperformance on rare cell type annotation and robustness on batch effect. 
 
-Moreover, scBalance is the only tool that is highly compatible with [Scanpy](https://scanpy-tutorials.readthedocs.io/en/latest/), a popular single-cell data analysis platform, which makes scBalance much easier to use in real-world scRNA-seq research, compared with other tools.
+Notably, scBalance is the only tool that is highly compatible with Scanpy. Users can easily use it with the Anndata structure during the analysis. Instructions and examples are provided in the following tutorials.
+
+## Requirement
+
+- Scanpy
+- Pytorch
+- Numpy
+- Pandas
 
 ## Tutorial
 
 [Annotation of 3k PBMCs](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/scBalance%20Tuotrial_Annotation%20of%203k%20PBMCs.ipynb)
+
