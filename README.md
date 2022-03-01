@@ -40,7 +40,7 @@ in which
 
 The label vector should be a n rows \* 1 column vector. For example,
 
-<img src="https://github.com/yuqcheng/scBalance/blob/main/Tutorial/usage1.png", width=300/>
+<img src="https://github.com/yuqcheng/scBalance/blob/main/Tutorial/usage1.png" width=300/>
 
 ## Citation
 
