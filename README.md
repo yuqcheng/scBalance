@@ -25,13 +25,18 @@ The inputs of scBalance are two expression matrices and one label vector.
 
 ```Python
 import scBalance as sb
-sb.scBalance(test, reference, ref_label, 'gpu')
+pred_result = sb.scBalance(test, reference, label, 'gpu')
 ```
 
-in which **test=The expression matrix of the sample to be annotated, reference=The expression matrix of the labeled dataset (reference set), label = label vector (in pandas structure)**.
+in which 
 
+- **test=The expression matrix of the sample to be annotated**,
+- **reference=The expression matrix of the labeled dataset (reference set),** 
+- **label = label vector (in pandas structure)**.
 
+The label vector should be a n rows \* 1 column vector. For example,
 
+![Image_text](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/usage1.png)
 
 ## Tutorial
 
