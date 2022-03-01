@@ -17,3 +17,5 @@ Notably, scBalance is the only tool that is highly compatible with Scanpy. Users
 
 [Annotation of 3k PBMCs](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/scBalance%20Tuotrial_Annotation%20of%203k%20PBMCs.ipynb)
 
+## Citation
+
