@@ -19,6 +19,10 @@ Notably, scBalance is the only tool that is highly compatible with Scanpy. Users
 pip install scBalance
 ```
 
+## Tutorial
+
+[Annotation of 3k PBMCs](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/scBalance%20Tuotrial_Annotation%20of%203k%20PBMCs.ipynb)
+
 ## Usage
 
 The inputs of scBalance are two expression matrices and one label vector. 
@@ -36,11 +40,7 @@ in which
 
 The label vector should be a n rows \* 1 column vector. For example,
 
-![Image_text](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/usage1.png)
-
-## Tutorial
-
-[Annotation of 3k PBMCs](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/scBalance%20Tuotrial_Annotation%20of%203k%20PBMCs.ipynb)
+<img src="https://github.com/yuqcheng/scBalance/blob/main/Tutorial/usage1.png", width=300>
 
 ## Citation
 
