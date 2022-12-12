@@ -23,6 +23,7 @@ pip install scBalance
 
 - [Annotation of 3k PBMCs](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/scBalance%20Tuotrial_Annotation%20of%203k%20PBMCs.ipynb)
 - [Intra-dataset and Inter-dataset annotation](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/Intradataset%26Interdataset_annotation_tutorial.ipynb)
+- [Modeling saving and sampling method choosing](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/Model%20saving%20and%20sampling%20method%20selection.ipynb)
 
 ## Usage
 
@@ -41,7 +42,7 @@ For users who want to process by yourselve, please follow the Tutorial [Intra-da
 
 ```Python
 import scBalance as sb
-pred_result = sb.scBalance(test, reference, label, processing_unit)
+pred_result = sb.scBalance(test, reference, label, processing_unit, save_model, save_path, load_model, load_dict, weighted_sampling)
 ```
 
 in which 
@@ -50,6 +51,9 @@ in which
 - **reference=The expression matrix of the labeled dataset (reference set),** 
 - **label = label vector (in pandas structure)**,
 - **processing_unit = 'cpu'(Default)/'gpu'**. If no changes, the default processor will be CPU. We highly recommend setting as 'gpu' if your server supports.
+- **save_model="False(default)/True"**. The trained model and cell type dictionary will be downloaded for the further reuse. The save path will be your root path without specify.
+- **save_path = [None(default)/str]**. Saving path will be specified here. Default is None and the model will be saved in your root path.
+- **weighted_sampling = True(Default)/False**. For this parameter, you may choose whether to use our internal weighted sampling method. If you choose True, then the weighted sampling method is applied. If False, then no sampling in the training step. In this section, you may use external smapling method for your interest. For example, for users who are more interested in one specific cell type, we recommand [scSynO](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04469-x) for the pre-sampling.
 
 The label vector should be a n rows \* 1 column vector. For example,
 
