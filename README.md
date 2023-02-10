@@ -24,6 +24,7 @@ pip install scBalance
 - [Annotation of 3k PBMCs](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/scBalance%20Tuotrial_Annotation%20of%203k%20PBMCs.ipynb)
 - [Intra-dataset and Inter-dataset annotation](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/Intradataset%26Interdataset_annotation_tutorial.ipynb)
 - [Modeling saving and sampling method choosing](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/Model%20saving%20and%20sampling%20method%20selection.ipynb)
+- [Using batch effect removal method before annotation](https://github.com/yuqcheng/scBalance/blob/main/Tutorial/scbalance_combat_tutorial.ipynb)
 
 ## Usage
 
