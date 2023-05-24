@@ -72,4 +72,4 @@ Computational unit be used is: cuda
 ```
 
 ## Citation
-A scalable sparse neural network framework for rare cell type annotation of single-cell transcriptome data. Yuqi Cheng, Xingyu Fan, Jianing Zhang, Yu Li bioRxiv 2022.06.22.497193; doi: https://doi.org/10.1101/2022.06.22.497193
+Cheng, Y., Fan, X., Zhang, J. et al. A scalable sparse neural network framework for rare cell type annotation of single-cell transcriptome data. Commun Biol 6, 545 (2023). https://doi.org/10.1038/s42003-023-04928-6
